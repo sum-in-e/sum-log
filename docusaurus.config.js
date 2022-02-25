@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'sum-log',
   tagline: 'sum-log',
-  url: 'https://your-docusaurus-test-site.com', // 배포된 사이트 url
+  url: 'https://sum-log.vercel.app/', // 배포된 사이트 url
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
