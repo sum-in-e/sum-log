@@ -1,0 +1,30 @@
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.settingImg {
+  height: 250px;
+  width: 250px;
+}
+
+.settingTitle {
+  margin-top: 30px;
+}
+
+.button {
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  font-size: large;
+}
