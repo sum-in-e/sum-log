@@ -80,7 +80,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: '내용 정리',
+                label: '개발위키',
                 to: '/docs/intro',
               },
             ],
