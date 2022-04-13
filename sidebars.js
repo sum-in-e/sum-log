@@ -46,6 +46,16 @@ const sidebars = {
       collapsed: false,
       items: ['next/about', 'next/installation'], // id는 파일루트
     },
+    // git, github
+    {
+      type: 'category',
+      label: 'Git/Github', //사이드바에 표시되는 라벨
+      link: {
+        type: 'generated-index',
+      },
+      collapsed: false,
+      items: ['git/commitConvention'], // id는 파일루트
+    },
     // 외부 링크
     {
       type: 'link', // 링크로 타입 지정
