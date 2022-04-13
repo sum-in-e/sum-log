@@ -15,37 +15,6 @@
 const sidebars = {
   docs: [
     'intro', // grouping 없이 문서만 배치할 경우 해당 문서의 타이틀이 사이드바 라벨로 표시된다.
-    {
-      type: 'category', // 사이드바 아이템의 계층 구조를 만들 때 category 타입을 설정한다.
-      label: 'React', //사이드바에 표시되는 라벨
-      link: {
-        type: 'generated-index',
-      },
-      collapsed: false,
-      items: [
-        'react/about',
-        'react/installation',
-        // items 내부에 카테고리를 생성하면 하위 항목들도 grouping이 가능하다.
-        {
-          type: 'category',
-          label: 'React Query', //사이드바에 표시되는 라벨
-          link: {
-            type: 'generated-index',
-          },
-          collapsed: false,
-          items: ['react/reactquery/about', 'react/reactquery/installation'], // id는 파일루트
-        },
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Next.js', //사이드바에 표시되는 라벨
-      link: {
-        type: 'generated-index',
-      },
-      collapsed: false,
-      items: ['next/about', 'next/installation'], // id는 파일루트
-    },
     // git, github
     {
       type: 'category',
