@@ -89,6 +89,10 @@ const config = {
             title: 'Community',
             items: [
               {
+                label: 'Rocketpunch',
+                href: 'https://www.rocketpunch.com/@72981d59',
+              },
+              {
                 label: 'LinkedIn',
                 href: 'https://linkedin.com/in/sum-in-e',
               },
