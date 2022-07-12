@@ -35,6 +35,16 @@ const sidebars = {
       collapsed: false,
       items: ['react/intro', 'react/rendering', 'react/memoization'], // id는 파일루트, 문서 추가할 때마다 추가 필요
     },
+    // TypeScript
+    {
+      type: 'category',
+      label: 'TypeScript', //사이드바에 표시되는 라벨
+      link: {
+        type: 'generated-index',
+      },
+      collapsed: false,
+      items: ['typescript/general'], // id는 파일루트, 문서 추가할 때마다 추가 필요
+    },
     // 외부 링크
     {
       type: 'link', // 링크로 타입 지정
